@@ -44,7 +44,7 @@ h1, .h1 {
     background: rgba(0, 0, 0, 0.3);
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .landing p {
@@ -56,7 +56,7 @@ h1, .h1 {
     position: absolute;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .landing .container {
