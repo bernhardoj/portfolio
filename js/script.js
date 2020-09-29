@@ -1,6 +1,10 @@
 // Enable Navbar Visible on Scroll feature
 // on larger device
 $(document).ready(() => {
+    $(".landing").css("height", window.innerHeight);
+    $(".landing img").css("height", window.innerHeight);
+    $(".overlay").css("height", window.innerHeight);
+    
     if ($(window).width() >= 768) {
         $(window).scroll(() => {
             if ($(window).scrollTop() >= 50) {
