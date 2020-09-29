@@ -1,0 +1,301 @@
+html { scroll-behavior: smooth; }
+
+h1, .h1 {
+    font-size: 1.8rem;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+.bg-grey {
+    background-color: #EBEBEB;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-variant-caps: all-petite-caps;
+    color: white;
+}
+
+.navbar-brand {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar {
+    transition: linear .3s;
+    background-color: #343a40;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.landing p {
+    position: relative;
+    font-weight: bold;
+}
+
+.landing img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.landing .container {
+    padding-top: 56px;
+    height: 100%;
+}
+
+#student {
+    z-index: 0;
+    width: fit-content;
+    border-bottom: 3px solid grey;
+}
+
+#about {
+    scroll-margin-top: 3rem;
+    background-color: #BBF9FA;
+}
+
+#about h1 {
+    width: fit-content;
+}
+
+#about img {
+    width: 300px;
+    max-width: 100%;
+    mix-blend-mode: color-burn;
+}
+
+#about>div {
+    align-items: center;
+}
+
+#about #desc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#works {
+    scroll-margin-top: 3rem;
+}
+
+#works h1 {
+    line-height: 1;
+    position: relative;
+}
+
+#works h1:after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    height: 5%;
+    width: 100%;
+}
+
+#featured-works {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+#featured-works .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+#featured-works p {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#featured-works p.subtitle {
+    font-weight: normal;
+    font-size: 12px;
+    color: gray;
+    line-height: 0.5;
+}
+
+#featured-works img {
+    max-width: 100%;
+    width: 250px;
+    object-fit: cover;
+    height: 200px;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact {
+    position: relative;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+#contact ul { 
+    margin-bottom: 0;
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+#contact li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contact span {
+    font-weight: bold;
+    margin-left: 1rem;
+    color: white;
+}
+
+#contact svg {
+    fill: white;
+}
+
+#keep-connect {
+    color: white;
+    text-align: center;
+}
+
+#keep-connect h1 {
+    line-height: 1;
+}
+
+#trapesium {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #00A2FF;
+}
+
+footer {
+    font-size: 10px;
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    h1, .h1 {
+        font-size: 2rem;
+    }
+
+    .display-4 {
+        font-size: 3rem;
+    }
+
+    .navbar {
+        background-color: transparent;
+    }
+
+    #about #desc {
+        width: 60%;
+        margin-left: 275px;
+    }
+
+    #about h1 {
+        margin-left: 275px;
+    }
+
+    #about>div {
+        align-items: unset;
+    }
+
+    #about img {
+        bottom: 0;
+        position: absolute;
+    }
+
+    #about #desc h1 {
+        text-align: left!important;
+    }
+
+    #featured-works img {
+        width: 300px;
+        height: 220px;
+    }
+
+    #contact span {
+        color: black;
+    }
+
+    #contact svg {
+        fill: black;
+    }
+
+    #contact ul {
+        width: 70%;
+    }
+
+    #keep-connect {
+        text-align: right;
+    }
+    
+    #trapesium {
+        width: 60%;
+        clip-path: polygon(0% 100%,100% 100%, 100% 0%, 35% 0%);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h1, .h1 {
+        font-size: 2.5rem;
+    }
+
+    .display-4 {
+        font-size: 3.5rem;
+    }
+
+    #about #desc {
+        width: 50%;
+        margin-left: 450px;
+    }
+
+    #about img {
+        left: 100px;
+    }
+
+    #about h1 {
+        margin-left: 450px;
+    }
+
+    #featured-works {
+        margin-top: 0;
+        width: 75%;
+    }
+
+    #works h1:after {
+        width: 150px;
+    }
+}
