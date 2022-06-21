@@ -28,7 +28,7 @@ $(document).ready(() => {
     });
 
     $('#attendance').tooltip({
-        title: "I participated in an event as a staff, and each staff from other divisions has their" +
+        title: "I participated in an event as a staff, and each staff from other divisions has their " +
         "decorating schedule. So, I created an attendance system to keep track of their attendance time. " +
         "They will get points based on their spent time (in minutes) and will be shown on the leaderboard page."
     });
